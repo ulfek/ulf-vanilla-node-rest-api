@@ -1,0 +1,18 @@
+MyNotesUlf.txt
+
+1. Copied products.json from https://github.com/bradtraversy/vanilla-node-rest-api
+2. npm init -y , creates package.json
+3. npm i -D nodemon, the only devdependency, it adds 
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+    in package.json
+4. Added 2 scripts in package.json
+   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+   }
+5. Create server.js
+6. run server
+   npm run dev
+7. npm i uuid
